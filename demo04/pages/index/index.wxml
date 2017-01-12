@@ -12,9 +12,12 @@
     <view class="ban">
         <image src="../resource/images/banner-1.jpg"></image>
     </view>
-    <scroll-view class="itmes" scroll-x="true">
-        <text>scroll-x</text>
-    </scroll-view>
+    <view class="itemsGroup" scroll-x="true">
+        <view class="items"></view>
+        <view class="items">2</view>
+        <view class="items">3</view>
+        <view class="items">4</view>
+    </view>
     <scroll-view class="content" scroll-y="true">
         <text>scroll-y</text>
     </scroll-view>

@@ -36,9 +36,22 @@
     width:100%;
     height:300rpx;
 }
-.itmes{
-    height:200rpx;
-    border:1px solid violet;
+.itemsGroup{
+    display: block;
+    height:170rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:1px solid #ccc;
+}
+.itemsGroup .items{
+    width:150rpx;
+    height:150rpx;
+    line-height: 150rpx;
+    text-align: center;
+    background:#ccc;
+    border-radius:50%;
 }
 .content{
     border:1px solid royalblue;
