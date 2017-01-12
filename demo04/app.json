@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#111",
+    "navigationBarTitleText": "We Chat",
+    "navigationBarTextStyle":"#fff"
+  }
+}

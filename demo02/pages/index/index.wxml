@@ -1,0 +1,8 @@
+<view class="box">
+    <view class="head">
+        <image src="{{picUrl}}" ></image>
+        <view>zhouxy</view>
+    </view>
+    <view class="btn">
+    </view>
+</view>

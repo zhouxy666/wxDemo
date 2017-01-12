@@ -1,0 +1,24 @@
+<view class="container">
+    <view class="head">
+        <text>牛人讲堂</text>
+        <icon type="success"/>
+    </view>
+    <view class="nav">
+        <text hover-class="text-hover">首页</text>
+        <text hover-class="text-hover">0-1岁</text>
+        <text hover-class="text-hover">2-6岁</text>
+        <text hover-class="text-hover">7-12岁</text>
+    </view>
+    <view class="ban">
+        <image src="../resource/images/banner-1.jpg"></image>
+    </view>
+    <scroll-view class="itmes" scroll-x="true">
+        <text>scroll-x</text>
+    </scroll-view>
+    <scroll-view class="content" scroll-y="true">
+        <text>scroll-y</text>
+    </scroll-view>
+    <view class="footer">
+        
+    </view>  
+</view>

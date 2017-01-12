@@ -1,0 +1,12 @@
+<!--pages/main/main.wxml-->
+<view class="container">
+    <video src="{{src}}" id="myVideo"></video>
+    <view class="btnGroup">
+        <button bindtap="videoPlay" type="primary">play</button>
+        <button bindtap="videoPause" type="primary">pause</button>
+    </view>
+    <view class="danmu">
+        <input type="text" bindblur="bindInputBlur"/>
+        <button bindtap="videoSendDanmu" type="default" size="mini">sendDanmu</button>
+    </view>
+</view>

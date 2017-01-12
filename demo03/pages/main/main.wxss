@@ -1,0 +1,23 @@
+/* pages/main/main.wxss */
+/**app.wxss**/
+.container{
+    padding:40rpx 0 0 0;
+}
+.btnGroup{
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    padding: 50rpx 0 0 0;
+}
+
+.danmu{
+    margin-top:50rpx;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.danmu input{
+    margin-bottom:5rpx;
+    border:1px solid #ccc;
+    border-radius:7rpx;
+    padding-left:10rpx;
+}
